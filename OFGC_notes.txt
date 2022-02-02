@@ -1,0 +1,15 @@
+...Se intento desarrollar solo con BS y requests, para hacer el webscrapping de
+la url del video a bajar, sin embargo se opta por ver en qu� podr�a ayudar a la
+tarea Selenium.
+07.03.20
+*Se comenzar� a desarrollar con Beuatiful Soup + Selenium
+*Se instala selenium #pip install selenium
+*Se descarga el driver de Mozilla
+*Logre correr el driver de Firefox con Selenium y entrar a la p�gina de Selenium.
+
+09.03.20
+*Ya logre hacer correr la idea inicial que es a partir de una URL de instagram conseguir el video "Decargable"
+*Todo
+    *Implementar una forma segura de que no sea vea la contraseña. Desde un .txt o explorar formas.
+    *Que automaticamente se silencie el explorador. Enviando tecla "espacio" o "m"
+    *Que automaticamente baje el video a la carpeta.
