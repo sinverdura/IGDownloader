@@ -1776,3 +1776,65 @@ JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILUR
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1643876331620	geckodriver	INFO	Listening on 127.0.0.1:50996
+1643876334802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50997" "-no-remote" "-profile" "C:\\Users\\uie43003\\AppData\\Local\\Temp\\rust_mozprofileXOMCr4"
+1643876335732	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\uie43003\\AppData\\Local\\Temp\\rust_mozprofileXOMCr4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50997/devtools/browser/480b78f0-fe11-4f73-b164-b174cd8a6b6e
+1643876342870	Marionette	INFO	Listening on port 51002
+1643876344030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+[Child 25596, MediaDecoderStateMachine #1] WARNING: 14e14c9a660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 25596, MediaDecoderStateMachine #1] WARNING: 14e23927f20 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 25596, MediaDecoderStateMachine #1] WARNING: 14e16f854a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 25596, MediaDecoderStateMachine #1] WARNING: 14e23927f20 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 25596, MediaDecoderStateMachine #1] WARNING: 14e1ae2d820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 25596, MediaDecoderStateMachine #1] WARNING: 14e2512fd60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1643876389391	Marionette	INFO	Stopped listening on port 51002
+[Parent 15524, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 828: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1643876699137	geckodriver	INFO	Listening on 127.0.0.1:51122
+1643876702202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51123" "-no-remote" "-profile" "C:\\Users\\uie43003\\AppData\\Local\\Temp\\rust_mozprofilecmVfGG"
+1643876703769	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\uie43003\\AppData\\Local\\Temp\\rust_mozprofilecmVfGG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51123/devtools/browser/1d7accb7-e1b3-45c9-90dd-86f4f4daf136
+1643876708861	Marionette	INFO	Listening on port 51128
+1643876709223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+[Child 24148, MediaDecoderStateMachine #1] WARNING: 21c7cb929e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 24148, MediaDecoderStateMachine #1] WARNING: 21c7f85fd60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1643876750041	Marionette	INFO	Stopped listening on port 51128
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643876784504	geckodriver	INFO	Listening on 127.0.0.1:51208
+1643876787547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51209" "-no-remote" "-profile" "C:\\Users\\uie43003\\AppData\\Local\\Temp\\rust_mozprofiletxTMwk"
+1643876788582	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\uie43003\\AppData\\Local\\Temp\\rust_mozprofiletxTMwk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51209/devtools/browser/54d56d8b-982b-4dd3-81d4-9db809bd8d21
+1643876794117	Marionette	INFO	Listening on port 51214
+1643876794546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1643876810507	Marionette	WARN	Connection attempt denied because an active session has been found
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e46986e40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e46966200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e53ee7ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e472512e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e53fed4a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e472df3c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e4749ef20 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e53e6fc80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e46966580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e4bad8d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e4bad89e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e472df9e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e472514a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 8076, MediaDecoderStateMachine #1] WARNING: 19e472df740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1643876856942	Marionette	INFO	Stopped listening on port 51214

@@ -5,7 +5,7 @@ import urllib.request
 #from selenium.webdriver.common.keys import Keys
 
 list_urls=[] #se crea una lista vacia, para almacenar más tarde las URLs
-f=open('C:\\Users\\ogome\\Desktop\\Python\\WS_InstagramDownloader\\links.txt','r')
+f=open('C:\\Users\\uie43003\\Desktop\\Python\\IGDownloader\\links.txt','r')
 f_lines=f.readlines()   #f_lines es la lista donde se guradan los links que 
                         #vienen en la lista
 
@@ -17,7 +17,7 @@ password_xpath='//html//body//div[1]//section//main//article//div[2]//div[1]//di
 
 password=getpass.getpass(prompt='your IGpswrd, please: ')
 number_to_save=int(input('consecutive number to your 1st video: '))
-base_ar="C:\\Users\\ogome\\Videos\\Blue Shark\\"
+base_ar="C:\\Users\\uie43003\\Desktop\\Python\\IGDownloader\\Videos\\"
 for x in range(len(f_lines)): #se crea la lista de URLs
     i=number_to_save+x
     name_video=base_ar+str(i)+'.mp4'
@@ -26,7 +26,7 @@ print('Automation working...')
 
 profile = webdriver.FirefoxProfile() #for mute firefox
 profile.set_preference("media.volume_scale", "0.0") #for mute firefox
-browser=webdriver.Firefox(executable_path=r"C:\\Users\\ogome\\Desktop\\Python\\WS_InstagramDownloader\\geckodriver-v0.26.0-win64\\geckodriver.exe",firefox_profile=profile) 
+browser=webdriver.Firefox(executable_path=r"C:\\Users\\uie43003\\Desktop\\Python\\IGDownloader\\geckodriver-v0.30.0-win64\\geckodriver.exe") #firefox_profile=profile
 
 browser.set_window_position(0,0)
 browser.set_window_size(1366/2,(768)) #1366 x 768 my actual desktop size 
@@ -48,7 +48,7 @@ for (a,b) in zip(f_lines,list_urls): #a==URL per vid, b==acces rute per vid
     time.sleep(1)
     urllib.request.urlretrieve(video_url,b)
     print("video ready! @ " + b)
-    print("by oscargxmxz, 2020.")
+    print("by oscargxmxz, 2022.")
 browser.quit()
 
 print('Script finalizado, '+ str(len(f_lines))+' video(s) descargados.')
